@@ -125,8 +125,8 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
                     
                   ]
                   const buttonMessage = {
-                    text: `*Welcome to* ${metadata.subject} @${num.split("@")[0]} *feel at home , here you are chilling with big boys/girls water to the people*`,
-                    footer: 'ZIM BOT INC',
+                    text: `*𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎* ${metadata.subject} @${num.split("@")[0]} *𝐇𝐄𝐋𝐋𝐎 𝐇𝐎𝐖 𝐀𝐑𝐄 𝐘𝐎𝐔📍🤗*`,
+                    footer: 'MR BOT INC',
                     buttons: buttons,
                     headerType: 1
                   
@@ -139,8 +139,8 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
                     
                   ]
                   const buttonMessage = {
-                    text: `*LEAVING* ${metadata.subject} @${num.split("@")[0]} *DONT COME BACK HERE OKAY!*`,
-                    footer: 'ZIM BOT INC',
+                    text: `*𝑳𝑬𝑨𝑽𝑰𝑵𝑮* ${metadata.subject} @${num.split("@")[0]} *𝐃𝐎𝐍𝐓 𝐂𝐎𝐌𝐄 𝐁𝐀𝐂𝐊 𝐇𝐄𝐑𝐄 𝐎𝐊𝐀𝐘🖕!*`,
+                    footer: 'MR BOT INC',
                     buttons: buttons,
                     headerType: 1
                   
@@ -193,7 +193,7 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await ZimBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: zim-bot\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:YouTube: Drips\nitem3.X-ABLabel:Youtube\nitem4.ADR:;;Zim, Mizoram;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: munavir\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:Instagram: _munavir._\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;India, KL10;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	ZimBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
