@@ -125,7 +125,7 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
                     
                   ]
                   const buttonMessage = {
-                    text: `*𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎* ${metadata.subject} @${num.split("@")[0]} *𝐇𝐄𝐋𝐋𝐎 𝐇𝐎𝐖 𝐀𝐑𝐄 𝐘𝐎𝐔📍🤗*`,
+                    text: `*𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑶* ${metadata.subject} @${num.split("@")[0]} *𝑯𝑬𝑳𝑳𝑶 𝑯𝑶𝑾 𝑨𝑹𝑬 𝒀𝑶𝑼📍*`,
                     footer: 'MR BOT INC',
                     buttons: buttons,
                     headerType: 1
@@ -139,7 +139,7 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
                     
                   ]
                   const buttonMessage = {
-                    text: `*𝑳𝑬𝑨𝑽𝑰𝑵𝑮* ${metadata.subject} @${num.split("@")[0]} *𝐃𝐎𝐍𝐓 𝐂𝐎𝐌𝐄 𝐁𝐀𝐂𝐊 𝐇𝐄𝐑𝐄 𝐎𝐊𝐀𝐘🖕!*`,
+                    text: `*𝐋𝐄𝐀𝐕𝐈𝐍𝐆* ${metadata.subject} @${num.split("@")[0]} *𝑫𝑶𝑵𝑻 𝑪𝑶𝑴𝑬 𝑩𝑨𝑪𝑲 𝑯𝑬𝑹𝑬 𝑶𝑲𝑨𝒀!🖕*`,
                     footer: 'MR BOT INC',
                     buttons: buttons,
                     headerType: 1
@@ -193,7 +193,7 @@ ZimBotInc.ev.on('group-participants.update', async (anu) => {
 	for (let i of kon) {
 	    list.push({
 	    	displayName: await ZimBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: munavir\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:Instagram: _munavir._\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;India, KL10;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nFN:${await ZimBotInc.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click To Chat\nitem2.EMAIL;type=INTERNET:GitHub: MUNAVIR\nitem2.X-ABLabel:Follow Me On Github\nitem3.URL:Instagram: _munavir._\nitem3.X-ABLabel:Youtube\nitem4.ADR:;;India, Kerala;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
 	ZimBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })

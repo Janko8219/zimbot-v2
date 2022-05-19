@@ -36,15 +36,15 @@ global.APIKeys = {
 global.owner = ['918590822912',''] //owner number +27634090203
 global.pemilik = ['918590822912'] //owner number +27634090203
 global.premium = ['918590822912'] //premium number +27634090203
-global.pengguna = '𝑴𝑼𝑵𝑨𝑽𝑰𝑹' //username
+global.pengguna = 'munavir' //username
 global.footer = 'MR BOT INC'
 global.botnma = 'MR BOT INC' //bot name
-global.ownernma = 'munavir' //owner name
+global.ownernma = 'MUNAVIR' //owner name
 global.packname = 'munavir' //sticker package name
 global.author = 'By munavir' //sticker author name
 global.sessionName = 'session' //session name
 global.prefa = ['#','!','/',''] //prefix
-global.sp = '💫' //sp
+global.sp = '🍻' //sp
 global.mess = {
     success: '𝑫𝒐𝒏𝒆!',
     admin: '*This feature is only for admin!*',
